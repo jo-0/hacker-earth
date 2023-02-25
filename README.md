@@ -1,5 +1,5 @@
 ## Problem
-In a university, your attendance determines whether you will be allowed to attend your graduation ceremony. You are not allowed to miss classes for two or more consecutive days. For example, if you miss a class today, then you must attend it tomorrow. Your graduation ceremony is on the last day of the academic year that is the *Nth day.*
+In a university, your attendance determines whether you will be allowed to attend your graduation ceremony. You are not allowed to miss classes for four or more consecutive days. Your graduation ceremony is on the last day of the academic year that is the *Nth day.*
 
 Your task is to determine the following:
 - The number of ways to attend classes over N days. 
@@ -24,9 +24,12 @@ You are required to print the following in a new line:
 
 |Sample Input|Sample Output|
 |------------|-------------|
-|3           |2/5          |
+|5           |14/29        |
+|10          |372/773      |
 
 ### Explanation
+
+*If you are not allowed to miss classes for two or more consecutive days*
 Let’s call the day she’s absent as A. And the day she’s present as P
 
 Then all possible attendance combinations for n=3 days will be –

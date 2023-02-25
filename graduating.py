@@ -23,6 +23,6 @@ def find_probability_of_missing(ways_to_attend) -> list[str]:
     return chance_of_missing
 
 
-possible_ways = find_possible_attendance_combinations(n=10)
+possible_ways = find_possible_attendance_combinations(n=5)
 probability = find_probability_of_missing(ways_to_attend=possible_ways)
 print(f"{len(probability)}/{len(possible_ways)}")
