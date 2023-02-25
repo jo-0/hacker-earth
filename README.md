@@ -1,5 +1,5 @@
 ## Problem
-In a university, your attendance determines whether you will be allowed to attend your graduation ceremony. You are not allowed to miss classes for two or more consecutive days. For example, if you miss a class today, then you must attend it tomorrow. Your graduation ceremony is on the last day of the academic year that is the Nth day.
+In a university, your attendance determines whether you will be allowed to attend your graduation ceremony. You are not allowed to miss classes for two or more consecutive days. For example, if you miss a class today, then you must attend it tomorrow. Your graduation ceremony is on the last day of the academic year that is the *Nth day.*
 
 Your task is to determine the following:
 - The number of ways to attend classes over N days. 
@@ -7,25 +7,24 @@ Your task is to determine the following:
 
 #### Note
 
-- Probability = (No. of ways of being absent at the ceremony) / (Total no. of ways to attend classes over N days)
-- You do not have to reduce the fraction. For example, if prob=10/20, then the output should be 10/20 and not 1/2.
+- *Probability = (No. of ways of being absent at the ceremony) / (Total no. of ways to attend classes over N days)*
+- *You do not have to reduce the fraction. For example, if prob=10/20, then the output should be 10/20 and not 1/2.*
 
 
 #### Input format
 
-- The first and the only line of input contains an integer denoting the number of days.
+- The first and the only line of input contains an integer *N* denoting the number of days.
 
 #### Output format
 
 You are required to print the following in a new line:
-- The number of ways to attend classes over N days. 
+- The number of ways to attend classes over *N days.*
 - The probability that you will miss your graduation ceremony.
 
 
 |Sample Input|Sample Output|
 |------------|-------------|
-|3           |5            |
-|            |2/5          |
+|3           |2/5          |
 
 ### Explanation
 Let’s call the day she’s absent as A. And the day she’s present as P
