@@ -1,14 +1,14 @@
 """
 # https://www.hackerearth.com/problem/algorithm/graduating-5b72b1c7-bc102a51/
 
-Explanation with example:
-
-(if you are not allowed to miss classes for two or more consecutive days)
+Explanation:
+For example, if you are not allowed to miss classes for two or more consecutive days,
 
 Let's call the day she's absent as A. And the day she's present as P
 
 Then all possible attendance combinations for n=3 days will be -
-AAA, AAP, APA, APP, PAA, PAP, PPA, and PPP -> Now in combinations AAA, AAP, and PAA, she's absent for more than or equal to two consecutive days. Thus, we'll reject these.
+AAA, AAP, APA, APP, PAA, PAP, PPA, and PPP -> Now in combinations AAA, AAP, and PAA, she's absent for more than or
+equal to two consecutive days. Thus, we'll reject these.
 
 Required Combinations: APA, APP, PAP, PPA, and PPP -> 5 ways. Print 5
 
